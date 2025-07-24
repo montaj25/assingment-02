@@ -63,5 +63,23 @@ nav li a{
 }
 .card-content{
   text-align: center;
+  border: 1px dashed lightgray;
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+  margin-bottom: 400px;
+}
+.flower-lover{
+  display: flex;
+  gap: 60px;
+}
+.store-title{
+  font-weight: 700;
+  font-size: 3.25rem
+}
+.text-style{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.5rem;
 }
