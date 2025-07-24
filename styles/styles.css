@@ -73,6 +73,7 @@ nav li a{
 }
 .flower-lover{
   display: flex;
+  max-height: 600px;
   gap: 60px;
 }
 .store-title{
@@ -82,4 +83,15 @@ nav li a{
 .text-style{
   color: rgba(0, 0, 0, 0.5);
   font-size: 1.5rem;
+}
+
+.flower-store{
+  width: 100%;
+}
+.badge{
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  margin-top: -710px;
+  margin-left: 350px;
 }
