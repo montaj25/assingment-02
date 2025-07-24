@@ -102,5 +102,54 @@ nav li a{
   margin-bottom: 130px;
 }
 .offer1{
-  background-image: url();
+  background-image: url("../assets/deal-bloom.png");
+  background-repeat: no-repeat;
+}
+.offer2{
+  background-image: url("../assets/deal-ana.png");
+  background-repeat: no-repeat;
+}
+.zabo-plant{
+  background-image: url("../assets/deal-zabo.png");
+  background-repeat: no-repeat;
+}
+.offers-container{
+  display: flex;
+  gap: 28px;
+
+}
+.title{
+  font-weight: 700;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+.shop{
+  font-weight: 600;
+  font-size: 28px;
+  color: #FFFFFF;
+}
+.offer-title{
+  font-weight: 700;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.zabo-plant{
+  width: 750px;
+  height: 100%;
+  text-align: center;
+  border-radius: 20px;
+  padding: 170px 120px;
+}
+.offer1, .offer2{
+  width: 350px;
+  height: 30%;
+  text-align: center;
+  border-radius: 20px;
+  padding: 60px 30px 20px 30px;
+}
+.offer-title, .title{
+  margin: 2px;
+}
+.offer{
+  gap: 5px;
 }
