@@ -11,7 +11,6 @@
 
 .navbar{
     display: flex;
-    
     justify-content: space-between;
     align-items: center;
 }
@@ -171,6 +170,8 @@ input{
 }
 .footer{
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   gap: 50px;
   height: 250px;
   margin: 50px auto;
@@ -180,13 +181,26 @@ input{
 }
 footer li{
   list-style: none;
-  
-}
-footer ul{
-  gap: 32px;
+
 }
 .logo{
-  width: 216px;
+
   display: flex;
-  
+}
+@media screen and (max-width: 576px) {
+  .navbar, 
+  .nav-content{
+    flex-direction: column;
+  }
+  .nav-content, 
+  .card-container, 
+  .flower-lover{
+    margin-left: 30px;
+  }
+  .card-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .flower-lover{
+    flex-direction: column;
+  }
 }
