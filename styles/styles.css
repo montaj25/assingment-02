@@ -86,7 +86,9 @@ nav li a{
   color: rgba(0, 0, 0, 0.5);
   font-size: 1.5rem;
 }
-
+.card-img{
+    width: 100%;
+  }
 .flower-store{
   width: 100%;
 }
@@ -118,7 +120,6 @@ nav li a{
 .offers-container{
   display: flex;
   gap: 28px;
-
 }
 .title{
   font-weight: 700;
@@ -141,6 +142,9 @@ nav li a{
   text-align: center;
   border-radius: 20px;
   padding: 170px 120px;
+}
+.offer{
+  max-width: 30%;
 }
 .offer1, .offer2{
   max-width: 350px;
@@ -194,13 +198,24 @@ footer li{
   .nav-content{
     flex-direction: column;
   }
+  .display-none{
+    display: none;
+  }
   .nav-content, 
   .card-container, 
-  .flower-lover{
-    margin-left: 30px;
+  .flower-lover, 
+  .navbar{
+    margin: 0 auto;
+    text-align: center;
   }
+
   .card-container{
     grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+  .btn-card{
+    width: 100%;
+    padding: 6px 12px;
   }
   .flower-lover, 
   .offers-container{
@@ -218,7 +233,7 @@ footer li{
     font-weight: 700;
   }
   .deals{
-    margin-top: 800px;
+    margin-top: 600px;
   }
   .footer{
     flex-direction: column;
