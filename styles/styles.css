@@ -43,6 +43,9 @@ nav li a{
   margin-top: 120px;
   margin-bottom: 120px;
 }
+.plant{
+  text-align: center;
+}
 .hero-flower{
   width: 100%;
 }
@@ -75,7 +78,7 @@ nav li a{
 }
 .flower-lover{
   display: flex;
-  max-height: 600px;
+  max-height: 540px;
   gap: 60px;
 }
 .store-title{
@@ -96,8 +99,8 @@ nav li a{
   width: 286px;
   height: 286px;
   position: absolute;
-  margin-top: -710px;
-  margin-left: 350px;
+  margin-top: -630px;
+  margin-left: 260px;
 }
 .deals{
   max-width: 1440px;
@@ -161,9 +164,12 @@ nav li a{
 
 }
 input{
-  max-width: 644px;
-  max-height: 50px;
-  padding: 8px 20px;
+  width: 644px;
+  height: 32px;
+  padding: 9px 20px;
+  /* width: 270px;
+  height: 50px;
+  padding: 8px 20px; */
   border: none;
 }
 .news-letter-container{
@@ -201,6 +207,9 @@ footer li{
   .display-none{
     display: none;
   }
+  .text-style{
+    font-size: 1rem;
+  }
   .nav-content, 
   .card-container, 
   .flower-lover, 
@@ -208,10 +217,14 @@ footer li{
     margin: 0 auto;
     text-align: center;
   }
+  .nav-content{
+    flex-direction: column-reverse;
+  }
 
   .card-container{
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
+    margin-bottom: 15px;
   }
   .btn-card{
     width: 100%;
