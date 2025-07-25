@@ -245,10 +245,20 @@ footer li{
     font-size: 24px;
     font-weight: 700;
   }
+  .offer{
+    width: 360px;
+  }
+  input{
+  width: 250px;
+}
+.btn-card{
+  width: 103px;
+}
   .deals{
     margin-top: 600px;
   }
   .footer{
     flex-direction: column;
   }
+  
 }
